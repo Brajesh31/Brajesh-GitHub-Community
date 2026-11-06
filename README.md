@@ -139,10 +139,10 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 - Mutual: **0**
 - Followers Not Followed: **27**
 - Following Not Following Back: **33**
-- Discovered Candidates: **0**
+- Discovered Candidates: **100**
 - Successfully Followed: **0**
-- Awaiting Review: **0**
-- Updated: `2026-11-06T16:54:09+00:00`
+- Awaiting Review: **100**
+- Updated: `2026-11-06T17:11:40+00:00`
 
 ## Followers
 
@@ -175,3 +175,4 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/tech-dev-club"><img src="https://avatars.githubusercontent.com/u/239598714?v=4" alt="tech-dev-club" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
