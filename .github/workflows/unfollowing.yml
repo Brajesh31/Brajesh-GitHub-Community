@@ -1,0 +1,22 @@
+name: Report non-mutual following
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - name: Report candidates (read-only)
+        env:
+          GITHUB_USERNAME: Brajesh31
+          MY_FOLLOWERS: ${{ secrets.MY_FOLLOWERS }}
+        run: python unfollowing_my_unfollowers.py
