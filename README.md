@@ -28,13 +28,14 @@ candidate discovery, persistent history, blacklist/whitelist protection,
 minimum unfollow waiting period, conservative daily/action limits, dry-run
 simulation, and generated community reports are included.
 
-All account mutations are disabled by default:
+All three account automations are enabled for this project with conservative
+limits:
 
 ```text
-AUTO_FOLLOW_ENABLED=false
-AUTO_FOLLOW_BACK_ENABLED=false
-AUTO_UNFOLLOW_ENABLED=false
-DRY_RUN=true
+AUTO_FOLLOW_ENABLED=true
+AUTO_FOLLOW_BACK_ENABLED=true
+AUTO_UNFOLLOW_ENABLED=true
+DRY_RUN=false
 ```
 
 Changing code or workflow values does not bypass GitHub permissions or
@@ -61,12 +62,14 @@ environment variables; they do not load `.env` automatically.
 | `GITHUB_USERNAME` | `Brajesh31` | Authenticated account |
 | `MY_FOLLOWERS` | unset | Fine-grained token |
 | `AUTO_DISCOVERY_ENABLED` | `true` | Discover public candidates |
-| `AUTO_FOLLOW_ENABLED` | `false` | Allow discovered-account follows |
-| `AUTO_FOLLOW_BACK_ENABLED` | `false` | Allow follow-back actions |
-| `AUTO_UNFOLLOW_ENABLED` | `false` | Allow non-mutual unfollows |
-| `DRY_RUN` | `true` | Record/report without API mutations |
+| `AUTO_FOLLOW_ENABLED` | `true` | Allow discovered-account follows |
+| `AUTO_FOLLOW_BACK_ENABLED` | `true` | Allow follow-back actions |
+| `AUTO_UNFOLLOW_ENABLED` | `true` | Allow non-mutual unfollows |
+| `DRY_RUN` | `false` | Set true to simulate without API mutations |
 | `MAX_FOLLOW_ACTIONS` | `5` | Per-execution follow/unfollow cap |
+| `MAX_UNFOLLOW_ACTIONS` | `5` | Per-execution unfollow cap |
 | `MAX_FOLLOW_ACTIONS_PER_DAY` | `20` | Daily follow cap |
+| `MAX_UNFOLLOW_ACTIONS_PER_DAY` | `20` | Daily unfollow cap |
 | `MIN_UNFOLLOW_WAIT_DAYS` | `14` | Required age of a recorded follow |
 | `WHITELIST_PATH` | `whitelist.txt` | Never automatically unfollow |
 | `BLACKLIST_PATH` | `blacklist.txt` | Never automatically follow/discover |
@@ -94,17 +97,17 @@ python create_readme.py
 pytest -q
 ```
 
-Mutation scripts remain simulation-only until both the relevant `AUTO_*` flag
-is enabled and `DRY_RUN=false`. The hidden legacy `--allow-mutations` switch
-enables all operations for deliberate local testing, but workflow files never
-use it.
+Mutation scripts require the relevant `AUTO_*` flag, `DRY_RUN=false`, and a
+token with Followers write permission. Set `DRY_RUN=true` when manually
+testing without API mutations. The hidden legacy `--allow-mutations` switch
+enables all operations for deliberate local testing.
 
 ## GitHub Actions
 
 Separate workflows exist for discovery, new-account follow processing,
 follow-back, report generation, non-mutual review, Pages deployment, and
 validation. Each supports manual dispatch; scheduled mutation workflows set
-the safety flags to disabled/dry-run. Workflows use `MY_FOLLOWERS` only for
+the requested automation flags to enabled with `DRY_RUN=false`. Workflows use `MY_FOLLOWERS` only for
 the API and `GITHUB_TOKEN`/workflow permissions for repository writes.
 
 Generated commits use `fetch-depth: 0`, `git pull --rebase`, no-op checks, and

@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: follow-back
+  group: community-automation
   cancel-in-progress: false
 jobs:
   follow-back:
@@ -17,12 +17,12 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: python -m pip install -r requirements.txt
-      - name: Process follow-back candidates (disabled by default)
+      - name: Follow eligible followers back
         env:
           GITHUB_USERNAME: Brajesh31
           MY_FOLLOWERS: "${{ secrets.MY_FOLLOWERS }}"
-          AUTO_FOLLOW_BACK_ENABLED: "false"
-          DRY_RUN: "true"
+          AUTO_FOLLOW_BACK_ENABLED: "true"
+          DRY_RUN: "false"
         run: python following_my_followers.py
       - name: Commit action history
         run: |

@@ -93,17 +93,38 @@ def record_action(data_dir: str, username: str, action: str, source: str, status
 
 
 def followed_history(data_dir: str) -> set[str]:
-    return {item["username"].lower() for item in history(paths(data_dir)["follow_history.json"])}
+    follows = {}
+    for item in history(paths(data_dir)["follow_history.json"]):
+        if item.get("username") and item.get("date_followed"):
+            follows[item["username"].lower()] = item["date_followed"]
+    unfollows = {}
+    for item in history(paths(data_dir)["unfollow_history.json"]):
+        if item.get("username") and item.get("date_unfollowed"):
+            unfollows[item["username"].lower()] = item["date_unfollowed"]
+    return {
+        username for username, followed_at in follows.items()
+        if followed_at > unfollows.get(username, "")
+    }
 
 
 def eligible_unfollow(data_dir: str, username: str, wait_days: int, whitelist: set[str], blacklist: set[str]) -> bool:
     if username.lower() in whitelist or username.lower() in blacklist:
         return False
+    latest_follow = None
     for item in reversed(history(paths(data_dir)["follow_history.json"])):
         if item.get("username", "").lower() == username.lower() and item.get("date_followed"):
-            followed = datetime.fromisoformat(item["date_followed"])
-            return (datetime.now(timezone.utc) - followed).days >= wait_days
-    return False
+            latest_follow = item["date_followed"]
+            break
+    if latest_follow is None:
+        return False
+    for item in reversed(history(paths(data_dir)["unfollow_history.json"])):
+        if (
+            item.get("username", "").lower() == username.lower()
+            and item.get("date_unfollowed", "") >= latest_follow
+        ):
+            return False
+    followed = datetime.fromisoformat(latest_follow)
+    return (datetime.now(timezone.utc) - followed).days >= wait_days
 
 
 def execute_mutations(client: GitHubClient, candidates: Sequence[str], action: str, settings, source: str) -> list[dict]:
@@ -111,19 +132,30 @@ def execute_mutations(client: GitHubClient, candidates: Sequence[str], action: s
     blacklist = load_names(settings.blacklist_path)
     existing = followed_history(settings.data_dir)
     today = now()[:10]
+    action_name = action
     actions_today = sum(
-        item.get("action") == "follow"
+        item.get("action") == action_name
         and item.get("status") == "success"
         and item.get("timestamp", "").startswith(today)
         for item in history(paths(settings.data_dir)["action_history.json"])
     )
-    remaining_daily = max(0, settings.max_follow_actions_per_day - actions_today)
+    daily_limit = (
+        settings.max_follow_actions_per_day
+        if action == "follow"
+        else settings.max_unfollow_actions_per_day
+    )
+    execution_limit = (
+        settings.max_follow_actions
+        if action == "follow"
+        else settings.max_unfollow_actions
+    )
+    remaining_daily = max(0, daily_limit - actions_today)
     eligible = [
         name for name in candidates
         if name.lower() != settings.username.lower()
         and name.lower() not in blacklist
         and (action != "follow" or name.lower() not in existing)
-    ][:min(settings.max_follow_actions, remaining_daily)]
+    ][:min(execution_limit, remaining_daily)]
     results = []
     if not getattr(settings, f"auto_{'follow_back' if source == 'follow-back' else action}_enabled", False) or settings.dry_run:
         LOGGER.info("Dry-run or disabled: %s %d candidates", action, len(eligible))

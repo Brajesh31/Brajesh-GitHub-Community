@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: unfollow-non-mutual
+  group: community-automation
   cancel-in-progress: false
 jobs:
   unfollow:
@@ -17,12 +17,12 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: python -m pip install -r requirements.txt
-      - name: Process unfollow candidates (disabled by default)
+      - name: Unfollow eligible non-mutual accounts
         env:
           GITHUB_USERNAME: Brajesh31
           MY_FOLLOWERS: "${{ secrets.MY_FOLLOWERS }}"
-          AUTO_UNFOLLOW_ENABLED: "false"
-          DRY_RUN: "true"
+          AUTO_UNFOLLOW_ENABLED: "true"
+          DRY_RUN: "false"
         run: python unfollowing_my_unfollowers.py
       - name: Commit action history
         run: |

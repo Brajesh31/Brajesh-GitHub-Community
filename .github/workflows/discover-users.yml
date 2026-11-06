@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: discover-users
+  group: community-automation
   cancel-in-progress: false
 jobs:
   discover:
