@@ -28,5 +28,35 @@
     "source": "discovery",
     "status": "success",
     "username": "afarnham"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:27+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "Abhishek123691"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:28+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "CyberFocus2410"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:28+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "Deynn0"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:28+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "Divyanshgupta13"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:29+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "DivyomSharma"
   }
 ]

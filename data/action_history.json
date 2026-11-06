@@ -49,5 +49,40 @@
     "status": "success",
     "timestamp": "2026-11-06T17:12:05+00:00",
     "username": "afarnham"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:27+00:00",
+    "username": "Abhishek123691"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:28+00:00",
+    "username": "CyberFocus2410"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:28+00:00",
+    "username": "Deynn0"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:28+00:00",
+    "username": "Divyanshgupta13"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:29+00:00",
+    "username": "DivyomSharma"
   }
 ]
