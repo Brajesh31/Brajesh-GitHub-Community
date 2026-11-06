@@ -31,7 +31,12 @@ def main() -> None:
     candidates = [item for item in read_json(paths(settings.data_dir)["candidates.json"], [])
                   if item.get("username", "").lower() not in successful]
     write_json(paths(settings.data_dir)["candidates.json"], candidates)
-    logging.info("Processed %d candidates; %d succeeded.", len(results), len(successful))
+    logging.info(
+        "Processed %d candidates; %d succeeded; %d failed.",
+        len(results),
+        len(successful),
+        sum(item["status"] == "failed" for item in results),
+    )
 
 
 if __name__ == "__main__":

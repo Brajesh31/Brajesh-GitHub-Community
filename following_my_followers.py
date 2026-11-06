@@ -19,7 +19,12 @@ def main() -> None:
     client.require_identity(settings.username)
     data = relationship_data(client, settings.username)
     results = execute_mutations(client, data["followers_not_followed"], "follow", settings, "follow-back")
-    logging.info("Follow-back candidates: %d; successful actions: %d", len(data["followers_not_followed"]), sum(r["status"] == "success" for r in results))
+    logging.info(
+        "Follow-back candidates: %d; successful actions: %d; failed actions: %d",
+        len(data["followers_not_followed"]),
+        sum(item["status"] == "success" for item in results),
+        sum(item["status"] == "failed" for item in results),
+    )
 
 
 if __name__ == "__main__":
