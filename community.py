@@ -1,19 +1,24 @@
-"""Shared relationship and report helpers."""
+"""Shared relationship, persistence, history, and mutation helpers."""
 
 import json
 import logging
 import os
 import tempfile
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Iterable, List, Sequence
+from typing import Iterable, Sequence
 
-from github_api import GitHubClient
-
+from config import load_names
+from github_api import GitHubApiError, GitHubClient
 
 LOGGER = logging.getLogger(__name__)
 
 
-def unique_logins(users: Iterable[dict]) -> List[str]:
+def now() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def unique_logins(users: Iterable[dict]) -> list[str]:
     return sorted({user["login"] for user in users if user.get("login")})
 
 
@@ -29,11 +34,7 @@ def relationship_data(client: GitHubClient, username: str) -> dict:
         "followers_not_followed": sorted(follower_names - following_names),
         "following_not_following_back": sorted(following_names - follower_names),
         "follower_profiles": sorted(
-            {
-                (user["login"], user.get("avatar_url", ""))
-                for user in followers
-                if user.get("login")
-            }
+            {(u["login"], u.get("avatar_url", "")) for u in followers if u.get("login")}
         ),
     }
 
@@ -41,33 +42,102 @@ def relationship_data(client: GitHubClient, username: str) -> dict:
 def atomic_write(path: str, content: str) -> None:
     destination = Path(path)
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.NamedTemporaryFile(
-        "w", encoding="utf-8", dir=destination.parent, delete=False
-    ) as handle:
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=destination.parent, delete=False) as handle:
         handle.write(content)
         temporary = handle.name
     os.replace(temporary, destination)
 
 
+def read_json(path: str, default):
+    try:
+        value = json.loads(Path(path).read_text(encoding="utf-8"))
+        return value
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default
+
+
 def write_json(path: str, value) -> None:
-    atomic_write(path, json.dumps(value, indent=2) + "\n")
+    atomic_write(path, json.dumps(value, indent=2, sort_keys=True) + "\n")
 
 
 def write_lines(path: str, values: Sequence[str]) -> None:
     atomic_write(path, "".join(f"{value}\n" for value in sorted(set(values))))
 
 
-def mutation_report(action: str, candidates: Sequence[str], client: GitHubClient, enabled: bool) -> None:
-    if not enabled:
-        LOGGER.info(
-            "%s is disabled by default; %d candidates were reported only.",
-            action,
-            len(candidates),
-        )
-        return
-    for username in candidates:
+def paths(data_dir: str) -> dict[str, str]:
+    return {name: str(Path(data_dir) / name) for name in (
+        "follow_history.json", "unfollow_history.json", "candidates.json", "action_history.json"
+    )}
+
+
+def history(path: str) -> list[dict]:
+    value = read_json(path, [])
+    return value if isinstance(value, list) else []
+
+
+def record_action(data_dir: str, username: str, action: str, source: str, status: str, error: str = "") -> dict:
+    files = paths(data_dir)
+    entry = {"username": username, "action": action, "source": source, "status": status, "timestamp": now()}
+    actions = history(files["action_history.json"])
+    actions.append({**entry, **({"error": error} if error else {})})
+    write_json(files["action_history.json"], actions)
+    if action == "follow" and status == "success":
+        follows = history(files["follow_history.json"])
+        follows.append({"username": username, "date_followed": entry["timestamp"], "source": source, "status": status})
+        write_json(files["follow_history.json"], follows)
+    if action == "unfollow" and status == "success":
+        unfollows = history(files["unfollow_history.json"])
+        unfollows.append({"username": username, "date_unfollowed": entry["timestamp"], "source": source, "status": status})
+        write_json(files["unfollow_history.json"], unfollows)
+    return entry
+
+
+def followed_history(data_dir: str) -> set[str]:
+    return {item["username"].lower() for item in history(paths(data_dir)["follow_history.json"])}
+
+
+def eligible_unfollow(data_dir: str, username: str, wait_days: int, whitelist: set[str], blacklist: set[str]) -> bool:
+    if username.lower() in whitelist or username.lower() in blacklist:
+        return False
+    for item in reversed(history(paths(data_dir)["follow_history.json"])):
+        if item.get("username", "").lower() == username.lower() and item.get("date_followed"):
+            followed = datetime.fromisoformat(item["date_followed"])
+            return (datetime.now(timezone.utc) - followed).days >= wait_days
+    return False
+
+
+def execute_mutations(client: GitHubClient, candidates: Sequence[str], action: str, settings, source: str) -> list[dict]:
+    whitelist = load_names(settings.whitelist_path)
+    blacklist = load_names(settings.blacklist_path)
+    existing = followed_history(settings.data_dir)
+    today = now()[:10]
+    actions_today = sum(
+        item.get("action") == "follow"
+        and item.get("status") == "success"
+        and item.get("timestamp", "").startswith(today)
+        for item in history(paths(settings.data_dir)["action_history.json"])
+    )
+    remaining_daily = max(0, settings.max_follow_actions_per_day - actions_today)
+    eligible = [
+        name for name in candidates
+        if name.lower() != settings.username.lower()
+        and name.lower() not in blacklist
+        and (action != "follow" or name.lower() not in existing)
+    ][:min(settings.max_follow_actions, remaining_daily)]
+    results = []
+    if not getattr(settings, f"auto_{'follow_back' if source == 'follow-back' else action}_enabled", False) or settings.dry_run:
+        LOGGER.info("Dry-run or disabled: %s %d candidates", action, len(eligible))
+        return [record_action(settings.data_dir, name, action, source, "dry_run") for name in eligible]
+    if not client.mutation_permissions():
+        raise GitHubApiError(403, "/user", "token lacks mutation permission")
+    for name in eligible:
+        if action == "unfollow" and not eligible_unfollow(settings.data_dir, name, settings.min_unfollow_wait_days, whitelist, blacklist):
+            continue
         try:
-            getattr(client, action)(username)
-            LOGGER.info("%s %s", action, username)
-        except Exception:
-            LOGGER.exception("Unable to %s %s", action, username)
+            success = getattr(client, action)(name)
+            results.append(record_action(settings.data_dir, name, action, source, "success" if success else "failed"))
+        except GitHubApiError as exc:
+            results.append(record_action(settings.data_dir, name, action, source, "failed", str(exc)))
+            if exc.status_code in {403, 429}:
+                break
+    return results

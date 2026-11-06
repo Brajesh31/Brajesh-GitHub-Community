@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Report accounts that follow the owner but are not followed back."""
+"""Report and optionally follow accounts that follow Brajesh31 back."""
 
 import argparse
 import logging
 
-from community import mutation_report, relationship_data
+from community import execute_mutations, relationship_data
 from config import add_common_arguments, settings_from_args
 from github_api import GitHubClient
 
@@ -14,14 +14,12 @@ def main() -> None:
     add_common_arguments(parser)
     args = parser.parse_args()
     settings = settings_from_args(args)
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    settings.configure_logging()
     client = GitHubClient(settings.token)
-    client.verify_token()
+    client.require_identity(settings.username)
     data = relationship_data(client, settings.username)
-    mutation_report(
-        "follow", data["followers_not_followed"], client, settings.allow_mutations
-    )
-    logging.info("Candidates: %s", ", ".join(data["followers_not_followed"]) or "none")
+    results = execute_mutations(client, data["followers_not_followed"], "follow", settings, "follow-back")
+    logging.info("Follow-back candidates: %d; successful actions: %d", len(data["followers_not_followed"]), sum(r["status"] == "success" for r in results))
 
 
 if __name__ == "__main__":
