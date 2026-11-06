@@ -1,103 +1,41 @@
-# Brajesh GitHub Community
+# GitHub Community Report
 
-A read-only Python project for follower analytics, profile insights, and
-automated README reporting using the GitHub REST API and GitHub Actions.
+Analytics for [Brajesh31](https://github.com/Brajesh31).
 
-## Features
+- Followers: **27**
+- Following: **33**
+- Mutual relationships: **0**
+- Follow me, not followed: **27**
+- I follow, not following back: **33**
 
-- Fetch followers and following with complete API pagination.
-- Report mutual relationships and one-way relationships.
-- Generate `README.md`, `index.html`, `Dataset.json`, and
-  `reports/relationships.json`.
-- Maintain a deduplicated review queue in `new_users_list.txt`.
-- Run locally or on a scheduled/manual GitHub Actions workflow.
-- Follow and unfollow code remains available, but is disabled unless
-  `--allow-mutations` is explicitly supplied.
+_Updated 2026-11-06T16:41:16+00:00_
 
-## Architecture
+## Followers
 
-`config.py` owns environment and CLI configuration. `github_api.py` provides
-Bearer-token authentication, timeouts, API-version headers, pagination, and
-explicit API errors. `community.py` contains relationship calculations and
-atomic file writes. The small command-line scripts compose these modules, while
-`.github/workflows/` runs report generation.
-
-## Installation
-
-```bash
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-# source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
-## Configuration
-
-Copy `.env.example` to `.env` for reference and export the values in your
-shell (the scripts do not load `.env` automatically):
-
-```text
-GITHUB_USERNAME=Brajesh31
-MY_FOLLOWERS=your_token_here
-```
-
-`GITHUB_USERNAME` defaults to `Brajesh31`. `MY_FOLLOWERS` is the preferred
-token variable. `GITHUB_TOKEN` is accepted as a local fallback. The token must
-belong to the configured account and should have only the permissions required
-for the selected operation.
-
-## GitHub token setup
-
-Create a fine-grained personal access token in GitHub settings with read-only
-access to public profile data for analytics. Do not paste the token into source
-files, notebooks, commit history, logs, or issue comments. For local use, set
-`MY_FOLLOWERS` in the process environment. For Actions, add a repository secret
-named `MY_FOLLOWERS`; `GITHUB_TOKEN` is reserved for committing workflow output.
-
-## Local execution
-
-```bash
-python create_readme.py
-python following_my_followers.py
-python unfollowing_my_unfollowers.py
-python get_random_users.py
-python following_new_users.py
-```
-
-All commands above are read-only by default. The relationship commands print
-candidate lists without changing GitHub. Mutation is deliberately a separate,
-explicit action: `python following_my_followers.py --allow-mutations`. Review
-the candidates and token permissions before using that flag.
-
-## GitHub Actions
-
-The `create_files.yml` workflow is the only enabled scheduled automation. It
-generates reports and commits only when files changed. Run it manually with
-`workflow_dispatch`. The other workflows are manual-only and report candidates;
-they do not perform follow or unfollow requests.
-
-## Security precautions
-
-- Never commit `.env`, tokens, private keys, or credential files.
-- Use least-privilege fine-grained tokens and rotate them if exposed.
-- Keep account-mutating operations disabled unless intentionally reviewed.
-- Treat generated follower data as public account metadata.
-
-## Project structure
-
-```text
-config.py                         shared configuration
-github_api.py                     GitHub REST client
-community.py                      analytics and atomic persistence helpers
-create_readme.py                  report generator
-following_my_followers.py         follow-back candidate report
-unfollowing_my_unfollowers.py     unfollow candidate report
-get_random_users.py               deduplicated review queue
-following_new_users.py            queued follow candidate report
-Dataset.json                      generated follower profile data
-reports/relationships.json        generated relationship report
-index.html                        generated browser view
-.github/workflows/                GitHub Actions
-```
+<a href="https://github.com/Abhishek123691"><img src="https://avatars.githubusercontent.com/u/217572952?v=4" alt="Abhishek123691" height="50" width="50"></a>
+<a href="https://github.com/CyberFocus2410"><img src="https://avatars.githubusercontent.com/u/221118698?v=4" alt="CyberFocus2410" height="50" width="50"></a>
+<a href="https://github.com/Deynn0"><img src="https://avatars.githubusercontent.com/u/219535114?v=4" alt="Deynn0" height="50" width="50"></a>
+<a href="https://github.com/Divyanshgupta13"><img src="https://avatars.githubusercontent.com/u/172985044?v=4" alt="Divyanshgupta13" height="50" width="50"></a>
+<a href="https://github.com/DivyomSharma"><img src="https://avatars.githubusercontent.com/u/172122448?v=4" alt="DivyomSharma" height="50" width="50"></a>
+<a href="https://github.com/Himanshu12315603"><img src="https://avatars.githubusercontent.com/u/150218275?v=4" alt="Himanshu12315603" height="50" width="50"></a>
+<a href="https://github.com/MalcomVie"><img src="https://avatars.githubusercontent.com/u/222227281?v=4" alt="MalcomVie" height="50" width="50"></a>
+<a href="https://github.com/MizukiSonoko"><img src="https://avatars.githubusercontent.com/u/6281583?v=4" alt="MizukiSonoko" height="50" width="50"></a>
+<a href="https://github.com/NovaDhruv15"><img src="https://avatars.githubusercontent.com/u/184974534?v=4" alt="NovaDhruv15" height="50" width="50"></a>
+<a href="https://github.com/Princemaurya25"><img src="https://avatars.githubusercontent.com/u/173058073?v=4" alt="Princemaurya25" height="50" width="50"></a>
+<a href="https://github.com/Raj1234ed"><img src="https://avatars.githubusercontent.com/u/239550125?v=4" alt="Raj1234ed" height="50" width="50"></a>
+<a href="https://github.com/RitikkumarAI"><img src="https://avatars.githubusercontent.com/u/145904770?v=4" alt="RitikkumarAI" height="50" width="50"></a>
+<a href="https://github.com/Vinit279"><img src="https://avatars.githubusercontent.com/u/196689444?v=4" alt="Vinit279" height="50" width="50"></a>
+<a href="https://github.com/asawaaarav09"><img src="https://avatars.githubusercontent.com/u/219246546?v=4" alt="asawaaarav09" height="50" width="50"></a>
+<a href="https://github.com/b28089840-svg"><img src="https://avatars.githubusercontent.com/u/239539539?v=4" alt="b28089840-svg" height="50" width="50"></a>
+<a href="https://github.com/b90649577-web"><img src="https://avatars.githubusercontent.com/u/225809329?v=4" alt="b90649577-web" height="50" width="50"></a>
+<a href="https://github.com/cg2102005-dotcom"><img src="https://avatars.githubusercontent.com/u/239552832?v=4" alt="cg2102005-dotcom" height="50" width="50"></a>
+<a href="https://github.com/chirag-g210"><img src="https://avatars.githubusercontent.com/u/190064639?v=4" alt="chirag-g210" height="50" width="50"></a>
+<a href="https://github.com/code-market-software"><img src="https://avatars.githubusercontent.com/u/100116238?v=4" alt="code-market-software" height="50" width="50"></a>
+<a href="https://github.com/code-with-abhi-i5"><img src="https://avatars.githubusercontent.com/u/195516410?v=4" alt="code-with-abhi-i5" height="50" width="50"></a>
+<a href="https://github.com/ganesh112389-spec"><img src="https://avatars.githubusercontent.com/u/239596832?v=4" alt="ganesh112389-spec" height="50" width="50"></a>
+<a href="https://github.com/omasanori"><img src="https://avatars.githubusercontent.com/u/167209?v=4" alt="omasanori" height="50" width="50"></a>
+<a href="https://github.com/omgupta9219"><img src="https://avatars.githubusercontent.com/u/158093368?v=4" alt="omgupta9219" height="50" width="50"></a>
+<a href="https://github.com/raj113422k-create"><img src="https://avatars.githubusercontent.com/u/239600717?v=4" alt="raj113422k-create" height="50" width="50"></a>
+<a href="https://github.com/sanskaryo"><img src="https://avatars.githubusercontent.com/u/104834389?v=4" alt="sanskaryo" height="50" width="50"></a>
+<a href="https://github.com/shivamtiwari432"><img src="https://avatars.githubusercontent.com/u/146664085?v=4" alt="shivamtiwari432" height="50" width="50"></a>
+<a href="https://github.com/tech-dev-club"><img src="https://avatars.githubusercontent.com/u/239598714?v=4" alt="tech-dev-club" height="50" width="50"></a>
