@@ -58,5 +58,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "DivyomSharma"
+  },
+  {
+    "date_followed": "2026-11-06T18:28:20+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "anotherjesse"
+  },
+  {
+    "date_followed": "2026-11-06T18:28:20+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "atmos"
+  },
+  {
+    "date_followed": "2026-11-06T18:28:21+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "automatthew"
+  },
+  {
+    "date_followed": "2026-11-06T18:28:21+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "benburkert"
+  },
+  {
+    "date_followed": "2026-11-06T18:28:21+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "bmizerany"
   }
 ]
