@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "action": "follow",
+    "error": "GitHub API 403 for /user/following/Abhishek123691: {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/users/followers#follow-a-user\",\"status\":\"403\"}",
+    "source": "follow-back",
+    "status": "failed",
+    "timestamp": "2026-11-06T17:03:14+00:00",
+    "username": "Abhishek123691"
+  }
+]
