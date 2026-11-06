@@ -1,21 +1,5 @@
 [
   {
-    "avatar_url": "https://avatars.githubusercontent.com/u/75?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/abhay",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "abhay"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/120?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/afarnham",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "afarnham"
-  },
-  {
     "avatar_url": "https://avatars.githubusercontent.com/u/27?v=4",
     "discovered_at": "2026-11-06T17:11:15+00:00",
     "profile_url": "https://github.com/anotherjesse",
@@ -54,14 +38,6 @@
     "status": "awaiting_review",
     "type": "User",
     "username": "bmizerany"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/102?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/BrianTheCoder",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "BrianTheCoder"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/85?v=4",
@@ -288,14 +264,6 @@
     "username": "grempe"
   },
   {
-    "avatar_url": "https://avatars.githubusercontent.com/u/111?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/HamptonMakes",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "HamptonMakes"
-  },
-  {
     "avatar_url": "https://avatars.githubusercontent.com/u/104?v=4",
     "discovered_at": "2026-11-06T17:11:15+00:00",
     "profile_url": "https://github.com/hassox",
@@ -430,14 +398,6 @@
     "status": "awaiting_review",
     "type": "User",
     "username": "kevwil"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/36?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/KirinDave",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "KirinDave"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/100?v=4",

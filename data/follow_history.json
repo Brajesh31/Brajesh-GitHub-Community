@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "date_followed": "2026-11-06T17:12:03+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "BrianTheCoder"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:03+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "HamptonMakes"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:04+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "KirinDave"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:04+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "abhay"
+  },
+  {
+    "date_followed": "2026-11-06T17:12:05+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "afarnham"
+  }
+]

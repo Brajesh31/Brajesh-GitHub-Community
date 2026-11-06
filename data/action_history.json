@@ -14,5 +14,40 @@
     "status": "failed",
     "timestamp": "2026-11-06T17:03:51+00:00",
     "username": "BrianTheCoder"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:03+00:00",
+    "username": "BrianTheCoder"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:03+00:00",
+    "username": "HamptonMakes"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:04+00:00",
+    "username": "KirinDave"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:04+00:00",
+    "username": "abhay"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-06T17:12:05+00:00",
+    "username": "afarnham"
   }
 ]
