@@ -1,1 +1,12 @@
-{"username": "Brajesh31", "followers": 0, "following": 0, "mutual": 0, "updated_at": null}
+{
+  "awaiting_review": 0,
+  "discovered_candidates": 0,
+  "followers": 27,
+  "followers_not_followed": 27,
+  "following": 33,
+  "following_not_following_back": 33,
+  "mutual": 0,
+  "successfully_followed": 0,
+  "updated_at": "2026-11-06T16:54:09+00:00",
+  "username": "Brajesh31"
+}
