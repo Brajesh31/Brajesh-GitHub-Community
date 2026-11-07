@@ -148,5 +148,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "b28089840-svg"
+  },
+  {
+    "date_followed": "2026-11-07T17:17:07+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "caged"
+  },
+  {
+    "date_followed": "2026-11-07T17:17:07+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "canadaduane"
+  },
+  {
+    "date_followed": "2026-11-07T17:17:07+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "collectiveidea"
+  },
+  {
+    "date_followed": "2026-11-07T17:17:07+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "corasaurus-hex"
+  },
+  {
+    "date_followed": "2026-11-07T17:17:08+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "cristibalan"
   }
 ]
