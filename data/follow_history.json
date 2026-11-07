@@ -118,5 +118,35 @@
     "source": "discovery",
     "status": "success",
     "username": "bs"
+  },
+  {
+    "date_followed": "2026-11-07T06:53:03+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "Raj1234ed"
+  },
+  {
+    "date_followed": "2026-11-07T06:53:04+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "RitikkumarAI"
+  },
+  {
+    "date_followed": "2026-11-07T06:53:04+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "Vinit279"
+  },
+  {
+    "date_followed": "2026-11-07T06:53:04+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "asawaaarav09"
+  },
+  {
+    "date_followed": "2026-11-07T06:53:05+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "b28089840-svg"
   }
 ]

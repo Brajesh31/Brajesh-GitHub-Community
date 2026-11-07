@@ -154,5 +154,40 @@
     "status": "success",
     "timestamp": "2026-11-07T04:11:04+00:00",
     "username": "bs"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-07T06:53:03+00:00",
+    "username": "Raj1234ed"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-07T06:53:04+00:00",
+    "username": "RitikkumarAI"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-07T06:53:04+00:00",
+    "username": "Vinit279"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-07T06:53:04+00:00",
+    "username": "asawaaarav09"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-07T06:53:05+00:00",
+    "username": "b28089840-svg"
   }
 ]
