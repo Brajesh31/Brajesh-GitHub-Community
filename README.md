@@ -134,15 +134,15 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 
 ## Community statistics
 
-- Followers: **27**
-- Following: **63**
-- Mutual: **15**
-- Followers Not Followed: **12**
-- Following Not Following Back: **48**
-- Discovered Candidates: **85**
-- Successfully Followed: **25**
-- Awaiting Review: **85**
-- Updated: `2026-11-07T08:33:37+00:00`
+- Followers: **29**
+- Following: **78**
+- Mutual: **20**
+- Followers Not Followed: **9**
+- Following Not Following Back: **58**
+- Discovered Candidates: **75**
+- Successfully Followed: **40**
+- Awaiting Review: **75**
+- Updated: `2026-11-08T08:46:21+00:00`
 
 ## Followers
 
@@ -162,6 +162,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/asawaaarav09"><img src="https://avatars.githubusercontent.com/u/219246546?v=4" alt="asawaaarav09" height="50" width="50"></a>
 <a href="https://github.com/b28089840-svg"><img src="https://avatars.githubusercontent.com/u/239539539?v=4" alt="b28089840-svg" height="50" width="50"></a>
 <a href="https://github.com/b90649577-web"><img src="https://avatars.githubusercontent.com/u/225809329?v=4" alt="b90649577-web" height="50" width="50"></a>
+<a href="https://github.com/boldotter921"><img src="https://avatars.githubusercontent.com/u/331097667?v=4" alt="boldotter921" height="50" width="50"></a>
 <a href="https://github.com/cg2102005-dotcom"><img src="https://avatars.githubusercontent.com/u/239552832?v=4" alt="cg2102005-dotcom" height="50" width="50"></a>
 <a href="https://github.com/chirag-g210"><img src="https://avatars.githubusercontent.com/u/190064639?v=4" alt="chirag-g210" height="50" width="50"></a>
 <a href="https://github.com/code-market-software"><img src="https://avatars.githubusercontent.com/u/100116238?v=4" alt="code-market-software" height="50" width="50"></a>
@@ -173,7 +174,9 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/sanskaryo"><img src="https://avatars.githubusercontent.com/u/104834389?v=4" alt="sanskaryo" height="50" width="50"></a>
 <a href="https://github.com/shivamtiwari432"><img src="https://avatars.githubusercontent.com/u/146664085?v=4" alt="shivamtiwari432" height="50" width="50"></a>
 <a href="https://github.com/tech-dev-club"><img src="https://avatars.githubusercontent.com/u/239598714?v=4" alt="tech-dev-club" height="50" width="50"></a>
+<a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
