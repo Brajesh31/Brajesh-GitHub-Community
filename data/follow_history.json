@@ -238,5 +238,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "code-with-abhi-i5"
+  },
+  {
+    "date_followed": "2026-11-08T17:29:16+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "defunkt"
+  },
+  {
+    "date_followed": "2026-11-08T17:29:16+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "dkubb"
+  },
+  {
+    "date_followed": "2026-11-08T17:29:17+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "drnic"
+  },
+  {
+    "date_followed": "2026-11-08T17:29:17+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "dstrelau"
+  },
+  {
+    "date_followed": "2026-11-08T17:29:17+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "dylanegan"
   }
 ]
