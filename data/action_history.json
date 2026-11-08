@@ -224,5 +224,40 @@
     "status": "success",
     "timestamp": "2026-11-07T17:17:08+00:00",
     "username": "cristibalan"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-08T03:54:35+00:00",
+    "username": "ctennis"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-08T03:54:36+00:00",
+    "username": "daksis"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-08T03:54:36+00:00",
+    "username": "danielharan"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-08T03:54:36+00:00",
+    "username": "danielmorrison"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-08T03:54:37+00:00",
+    "username": "danwrong"
   }
 ]
