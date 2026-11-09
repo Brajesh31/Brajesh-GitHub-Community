@@ -1,45 +1,5 @@
 [
   {
-    "avatar_url": "https://avatars.githubusercontent.com/u/51?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/elbowdonkey",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "elbowdonkey"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/81?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/engineyard",
-    "status": "awaiting_review",
-    "type": "Organization",
-    "username": "engineyard"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/7?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/evanphx",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "evanphx"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/5?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/ezmobius",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "ezmobius"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/30?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/fanvsfan",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "fanvsfan"
-  },
-  {
     "avatar_url": "https://avatars.githubusercontent.com/u/79?v=4",
     "discovered_at": "2026-11-06T17:11:15+00:00",
     "profile_url": "https://github.com/fearoffish",
