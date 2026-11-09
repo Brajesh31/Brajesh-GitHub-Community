@@ -364,5 +364,40 @@
     "status": "success",
     "timestamp": "2026-11-09T04:09:06+00:00",
     "username": "fanvsfan"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-09T07:42:58+00:00",
+    "username": "boldotter921"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-09T07:42:58+00:00",
+    "username": "ganesh112389-spec"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-09T07:42:58+00:00",
+    "username": "omasanori"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-09T07:42:59+00:00",
+    "username": "omgupta9219"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-09T07:42:59+00:00",
+    "username": "raj113422k-create"
   }
 ]

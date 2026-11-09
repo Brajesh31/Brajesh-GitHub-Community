@@ -298,5 +298,35 @@
     "source": "discovery",
     "status": "success",
     "username": "fanvsfan"
+  },
+  {
+    "date_followed": "2026-11-09T07:42:58+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "boldotter921"
+  },
+  {
+    "date_followed": "2026-11-09T07:42:58+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "ganesh112389-spec"
+  },
+  {
+    "date_followed": "2026-11-09T07:42:58+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "omasanori"
+  },
+  {
+    "date_followed": "2026-11-09T07:42:59+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "omgupta9219"
+  },
+  {
+    "date_followed": "2026-11-09T07:42:59+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "raj113422k-create"
   }
 ]
