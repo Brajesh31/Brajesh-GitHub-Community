@@ -328,5 +328,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "raj113422k-create"
+  },
+  {
+    "date_followed": "2026-11-09T21:50:44+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "fearoffish"
+  },
+  {
+    "date_followed": "2026-11-09T21:50:44+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "freeformz"
+  },
+  {
+    "date_followed": "2026-11-09T21:50:45+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "grempe"
+  },
+  {
+    "date_followed": "2026-11-09T21:50:45+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "hassox"
+  },
+  {
+    "date_followed": "2026-11-09T21:50:45+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "heavysixer"
   }
 ]
