@@ -135,14 +135,14 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 ## Community statistics
 
 - Followers: **29**
-- Following: **94**
-- Mutual: **25**
-- Followers Not Followed: **4**
-- Following Not Following Back: **69**
-- Discovered Candidates: **65**
-- Successfully Followed: **55**
-- Awaiting Review: **65**
-- Updated: `2026-11-09T09:27:41+00:00`
+- Following: **108**
+- Mutual: **29**
+- Followers Not Followed: **0**
+- Following Not Following Back: **79**
+- Discovered Candidates: **55**
+- Successfully Followed: **69**
+- Awaiting Review: **55**
+- Updated: `2026-11-10T09:30:07+00:00`
 
 ## Followers
 
@@ -177,6 +177,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
 
