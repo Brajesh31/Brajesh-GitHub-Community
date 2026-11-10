@@ -1,8 +1,3 @@
-jfrost
-jm
-jnewland
-jnicklas
-joshknowles
 jsierles
 jvantuyl
 jwhitmire

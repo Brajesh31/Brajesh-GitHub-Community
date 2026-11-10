@@ -412,5 +412,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "unbraind"
+  },
+  {
+    "date_followed": "2026-11-10T19:12:34+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "jfrost"
+  },
+  {
+    "date_followed": "2026-11-10T19:12:34+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "jm"
+  },
+  {
+    "date_followed": "2026-11-10T19:12:34+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "jnewland"
+  },
+  {
+    "date_followed": "2026-11-10T19:12:35+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "jnicklas"
+  },
+  {
+    "date_followed": "2026-11-10T19:12:35+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "joshknowles"
   }
 ]

@@ -497,5 +497,40 @@
     "status": "success",
     "timestamp": "2026-11-10T08:03:54+00:00",
     "username": "unbraind"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-10T19:12:34+00:00",
+    "username": "jfrost"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-10T19:12:34+00:00",
+    "username": "jm"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-10T19:12:34+00:00",
+    "username": "jnewland"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-10T19:12:35+00:00",
+    "username": "jnicklas"
+  },
+  {
+    "action": "follow",
+    "source": "discovery",
+    "status": "success",
+    "timestamp": "2026-11-10T19:12:35+00:00",
+    "username": "joshknowles"
   }
 ]
