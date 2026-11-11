@@ -478,5 +478,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "shahidazam2020-oss"
+  },
+  {
+    "date_followed": "2026-11-11T19:08:54+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "kmarsh"
+  },
+  {
+    "date_followed": "2026-11-11T19:08:54+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "knzai"
+  },
+  {
+    "date_followed": "2026-11-11T19:08:54+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "kvnsmth"
+  },
+  {
+    "date_followed": "2026-11-11T19:08:55+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "lancecarlson"
+  },
+  {
+    "date_followed": "2026-11-11T19:08:55+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "lawrencepit"
   }
 ]
