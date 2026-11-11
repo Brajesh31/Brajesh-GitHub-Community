@@ -134,15 +134,15 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 
 ## Community statistics
 
-- Followers: **29**
-- Following: **108**
-- Mutual: **29**
+- Followers: **30**
+- Following: **131**
+- Mutual: **30**
 - Followers Not Followed: **0**
-- Following Not Following Back: **79**
-- Discovered Candidates: **55**
-- Successfully Followed: **69**
-- Awaiting Review: **55**
-- Updated: `2026-11-10T09:30:07+00:00`
+- Following Not Following Back: **101**
+- Discovered Candidates: **45**
+- Successfully Followed: **80**
+- Awaiting Review: **45**
+- Updated: `2026-11-11T09:02:40+00:00`
 
 ## Followers
 
@@ -172,11 +172,13 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/omgupta9219"><img src="https://avatars.githubusercontent.com/u/158093368?v=4" alt="omgupta9219" height="50" width="50"></a>
 <a href="https://github.com/raj113422k-create"><img src="https://avatars.githubusercontent.com/u/239600717?v=4" alt="raj113422k-create" height="50" width="50"></a>
 <a href="https://github.com/sanskaryo"><img src="https://avatars.githubusercontent.com/u/104834389?v=4" alt="sanskaryo" height="50" width="50"></a>
+<a href="https://github.com/shahidazam2020-oss"><img src="https://avatars.githubusercontent.com/u/242987063?v=4" alt="shahidazam2020-oss" height="50" width="50"></a>
 <a href="https://github.com/shivamtiwari432"><img src="https://avatars.githubusercontent.com/u/146664085?v=4" alt="shivamtiwari432" height="50" width="50"></a>
 <a href="https://github.com/tech-dev-club"><img src="https://avatars.githubusercontent.com/u/239598714?v=4" alt="tech-dev-club" height="50" width="50"></a>
 <a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
 
