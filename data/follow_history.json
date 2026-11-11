@@ -442,5 +442,35 @@
     "source": "discovery",
     "status": "success",
     "username": "joshknowles"
+  },
+  {
+    "date_followed": "2026-11-11T04:12:54+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "jsierles"
+  },
+  {
+    "date_followed": "2026-11-11T04:12:55+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "jvantuyl"
+  },
+  {
+    "date_followed": "2026-11-11T04:12:55+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "jwhitmire"
+  },
+  {
+    "date_followed": "2026-11-11T04:12:56+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "kevinclark"
+  },
+  {
+    "date_followed": "2026-11-11T04:12:56+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "kevwil"
   }
 ]
