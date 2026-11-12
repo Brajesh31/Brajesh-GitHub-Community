@@ -538,5 +538,35 @@
     "source": "discovery",
     "status": "success",
     "username": "marcjeanson"
+  },
+  {
+    "date_followed": "2026-11-12T19:26:20+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "mattetti"
+  },
+  {
+    "date_followed": "2026-11-12T19:26:20+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "ministrycentered"
+  },
+  {
+    "date_followed": "2026-11-12T19:26:21+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "mmower"
+  },
+  {
+    "date_followed": "2026-11-12T19:26:21+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "mojombo"
+  },
+  {
+    "date_followed": "2026-11-12T19:26:21+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "nitay"
   }
 ]

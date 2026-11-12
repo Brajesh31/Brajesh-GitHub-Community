@@ -1,45 +1,5 @@
 [
   {
-    "avatar_url": "https://avatars.githubusercontent.com/u/113?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/mattetti",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "mattetti"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/119?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/ministrycentered",
-    "status": "awaiting_review",
-    "type": "Organization",
-    "username": "ministrycentered"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/74?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/mmower",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "mmower"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/mojombo",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "mojombo"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/34?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/nitay",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "nitay"
-  },
-  {
     "avatar_url": "https://avatars.githubusercontent.com/u/88?v=4",
     "discovered_at": "2026-11-06T17:11:15+00:00",
     "profile_url": "https://github.com/outerim",
