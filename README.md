@@ -134,15 +134,15 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 
 ## Community statistics
 
-- Followers: **30**
-- Following: **131**
+- Followers: **31**
+- Following: **141**
 - Mutual: **30**
-- Followers Not Followed: **0**
-- Following Not Following Back: **101**
-- Discovered Candidates: **45**
-- Successfully Followed: **80**
-- Awaiting Review: **45**
-- Updated: `2026-11-11T09:02:40+00:00`
+- Followers Not Followed: **1**
+- Following Not Following Back: **111**
+- Discovered Candidates: **35**
+- Successfully Followed: **90**
+- Awaiting Review: **35**
+- Updated: `2026-11-12T09:32:20+00:00`
 
 ## Followers
 
@@ -152,6 +152,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/Divyanshgupta13"><img src="https://avatars.githubusercontent.com/u/172985044?v=4" alt="Divyanshgupta13" height="50" width="50"></a>
 <a href="https://github.com/DivyomSharma"><img src="https://avatars.githubusercontent.com/u/172122448?v=4" alt="DivyomSharma" height="50" width="50"></a>
 <a href="https://github.com/Himanshu12315603"><img src="https://avatars.githubusercontent.com/u/150218275?v=4" alt="Himanshu12315603" height="50" width="50"></a>
+<a href="https://github.com/IDouble"><img src="https://avatars.githubusercontent.com/u/18186995?v=4" alt="IDouble" height="50" width="50"></a>
 <a href="https://github.com/MalcomVie"><img src="https://avatars.githubusercontent.com/u/222227281?v=4" alt="MalcomVie" height="50" width="50"></a>
 <a href="https://github.com/MizukiSonoko"><img src="https://avatars.githubusercontent.com/u/6281583?v=4" alt="MizukiSonoko" height="50" width="50"></a>
 <a href="https://github.com/NovaDhruv15"><img src="https://avatars.githubusercontent.com/u/184974534?v=4" alt="NovaDhruv15" height="50" width="50"></a>
@@ -178,6 +179,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
 
