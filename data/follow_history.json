@@ -610,5 +610,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "thejulan"
+  },
+  {
+    "date_followed": "2026-11-13T19:04:41+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "rabble"
+  },
+  {
+    "date_followed": "2026-11-13T19:04:41+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "railsjitsu"
+  },
+  {
+    "date_followed": "2026-11-13T19:04:42+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "reinh"
+  },
+  {
+    "date_followed": "2026-11-13T19:04:42+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "richcollins"
+  },
+  {
+    "date_followed": "2026-11-13T19:04:42+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "roland"
   }
 ]
