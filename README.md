@@ -134,15 +134,15 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 
 ## Community statistics
 
-- Followers: **31**
-- Following: **141**
-- Mutual: **30**
+- Followers: **33**
+- Following: **153**
+- Mutual: **32**
 - Followers Not Followed: **1**
-- Following Not Following Back: **111**
-- Discovered Candidates: **35**
-- Successfully Followed: **90**
-- Awaiting Review: **35**
-- Updated: `2026-11-12T09:32:20+00:00`
+- Following Not Following Back: **121**
+- Discovered Candidates: **25**
+- Successfully Followed: **102**
+- Awaiting Review: **25**
+- Updated: `2026-11-13T09:18:45+00:00`
 
 ## Followers
 
@@ -168,6 +168,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/chirag-g210"><img src="https://avatars.githubusercontent.com/u/190064639?v=4" alt="chirag-g210" height="50" width="50"></a>
 <a href="https://github.com/code-market-software"><img src="https://avatars.githubusercontent.com/u/100116238?v=4" alt="code-market-software" height="50" width="50"></a>
 <a href="https://github.com/code-with-abhi-i5"><img src="https://avatars.githubusercontent.com/u/195516410?v=4" alt="code-with-abhi-i5" height="50" width="50"></a>
+<a href="https://github.com/cooldev227"><img src="https://avatars.githubusercontent.com/u/327932079?v=4" alt="cooldev227" height="50" width="50"></a>
 <a href="https://github.com/ganesh112389-spec"><img src="https://avatars.githubusercontent.com/u/239596832?v=4" alt="ganesh112389-spec" height="50" width="50"></a>
 <a href="https://github.com/omasanori"><img src="https://avatars.githubusercontent.com/u/167209?v=4" alt="omasanori" height="50" width="50"></a>
 <a href="https://github.com/omgupta9219"><img src="https://avatars.githubusercontent.com/u/158093368?v=4" alt="omgupta9219" height="50" width="50"></a>
@@ -176,9 +177,11 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/shahidazam2020-oss"><img src="https://avatars.githubusercontent.com/u/242987063?v=4" alt="shahidazam2020-oss" height="50" width="50"></a>
 <a href="https://github.com/shivamtiwari432"><img src="https://avatars.githubusercontent.com/u/146664085?v=4" alt="shivamtiwari432" height="50" width="50"></a>
 <a href="https://github.com/tech-dev-club"><img src="https://avatars.githubusercontent.com/u/239598714?v=4" alt="tech-dev-club" height="50" width="50"></a>
+<a href="https://github.com/thejulan"><img src="https://avatars.githubusercontent.com/u/96956257?v=4" alt="thejulan" height="50" width="50"></a>
 <a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
 
