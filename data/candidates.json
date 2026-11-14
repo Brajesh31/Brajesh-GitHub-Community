@@ -1,45 +1,5 @@
 [
   {
-    "avatar_url": "https://avatars.githubusercontent.com/u/69?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/rsanheim",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "rsanheim"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/92?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/rsl",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "rsl"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/80?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/ry",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "ry"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/73?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/sam",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "sam"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/70?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/schacon",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "schacon"
-  },
-  {
     "avatar_url": "https://avatars.githubusercontent.com/u/45?v=4",
     "discovered_at": "2026-11-06T17:11:15+00:00",
     "profile_url": "https://github.com/sethfitz",
