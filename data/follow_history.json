@@ -688,5 +688,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "sungeer"
+  },
+  {
+    "date_followed": "2026-11-14T17:34:17+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "sethfitz"
+  },
+  {
+    "date_followed": "2026-11-14T17:34:17+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "simonjefford"
+  },
+  {
+    "date_followed": "2026-11-14T17:34:17+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "sr"
+  },
+  {
+    "date_followed": "2026-11-14T17:34:18+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "sunny"
+  },
+  {
+    "date_followed": "2026-11-14T17:34:18+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "takeo"
   }
 ]

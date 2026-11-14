@@ -1,45 +1,5 @@
 [
   {
-    "avatar_url": "https://avatars.githubusercontent.com/u/45?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/sethfitz",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "sethfitz"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/136?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/simonjefford",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "simonjefford"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/90?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/sr",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "sr"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/132?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/sunny",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "sunny"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/23?v=4",
-    "discovered_at": "2026-11-06T17:11:15+00:00",
-    "profile_url": "https://github.com/takeo",
-    "status": "awaiting_review",
-    "type": "User",
-    "username": "takeo"
-  },
-  {
     "avatar_url": "https://avatars.githubusercontent.com/u/21?v=4",
     "discovered_at": "2026-11-06T17:11:15+00:00",
     "profile_url": "https://github.com/technoweenie",
