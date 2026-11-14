@@ -134,15 +134,15 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 
 ## Community statistics
 
-- Followers: **33**
-- Following: **153**
-- Mutual: **32**
-- Followers Not Followed: **1**
-- Following Not Following Back: **121**
-- Discovered Candidates: **25**
-- Successfully Followed: **102**
-- Awaiting Review: **25**
-- Updated: `2026-11-13T09:18:45+00:00`
+- Followers: **36**
+- Following: **165**
+- Mutual: **34**
+- Followers Not Followed: **2**
+- Following Not Following Back: **131**
+- Discovered Candidates: **15**
+- Successfully Followed: **115**
+- Awaiting Review: **15**
+- Updated: `2026-11-14T08:47:37+00:00`
 
 ## Followers
 
@@ -170,17 +170,21 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/code-with-abhi-i5"><img src="https://avatars.githubusercontent.com/u/195516410?v=4" alt="code-with-abhi-i5" height="50" width="50"></a>
 <a href="https://github.com/cooldev227"><img src="https://avatars.githubusercontent.com/u/327932079?v=4" alt="cooldev227" height="50" width="50"></a>
 <a href="https://github.com/ganesh112389-spec"><img src="https://avatars.githubusercontent.com/u/239596832?v=4" alt="ganesh112389-spec" height="50" width="50"></a>
+<a href="https://github.com/md-abu-kayser"><img src="https://avatars.githubusercontent.com/u/67516307?v=4" alt="md-abu-kayser" height="50" width="50"></a>
 <a href="https://github.com/omasanori"><img src="https://avatars.githubusercontent.com/u/167209?v=4" alt="omasanori" height="50" width="50"></a>
 <a href="https://github.com/omgupta9219"><img src="https://avatars.githubusercontent.com/u/158093368?v=4" alt="omgupta9219" height="50" width="50"></a>
 <a href="https://github.com/raj113422k-create"><img src="https://avatars.githubusercontent.com/u/239600717?v=4" alt="raj113422k-create" height="50" width="50"></a>
 <a href="https://github.com/sanskaryo"><img src="https://avatars.githubusercontent.com/u/104834389?v=4" alt="sanskaryo" height="50" width="50"></a>
+<a href="https://github.com/seehiong"><img src="https://avatars.githubusercontent.com/u/6965893?v=4" alt="seehiong" height="50" width="50"></a>
 <a href="https://github.com/shahidazam2020-oss"><img src="https://avatars.githubusercontent.com/u/242987063?v=4" alt="shahidazam2020-oss" height="50" width="50"></a>
 <a href="https://github.com/shivamtiwari432"><img src="https://avatars.githubusercontent.com/u/146664085?v=4" alt="shivamtiwari432" height="50" width="50"></a>
+<a href="https://github.com/sungeer"><img src="https://avatars.githubusercontent.com/u/26924670?v=4" alt="sungeer" height="50" width="50"></a>
 <a href="https://github.com/tech-dev-club"><img src="https://avatars.githubusercontent.com/u/239598714?v=4" alt="tech-dev-club" height="50" width="50"></a>
 <a href="https://github.com/thejulan"><img src="https://avatars.githubusercontent.com/u/96956257?v=4" alt="thejulan" height="50" width="50"></a>
 <a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
 
