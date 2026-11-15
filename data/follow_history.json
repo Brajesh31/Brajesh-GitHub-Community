@@ -772,5 +772,35 @@
     "source": "follow-back",
     "status": "success",
     "username": "seehiong"
+  },
+  {
+    "date_followed": "2026-11-15T18:23:18+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "uggedal"
+  },
+  {
+    "date_followed": "2026-11-15T18:23:19+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "up_the_irons"
+  },
+  {
+    "date_followed": "2026-11-15T18:23:19+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "vanpelt"
+  },
+  {
+    "date_followed": "2026-11-15T18:23:19+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "wayneeseguin"
+  },
+  {
+    "date_followed": "2026-11-15T18:23:20+00:00",
+    "source": "discovery",
+    "status": "success",
+    "username": "wycats"
   }
 ]
