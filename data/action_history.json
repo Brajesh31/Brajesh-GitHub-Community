@@ -952,5 +952,40 @@
     "status": "success",
     "timestamp": "2026-11-15T18:23:20+00:00",
     "username": "wycats"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-16T07:43:19+00:00",
+    "username": "AnkanaDas-codes"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-16T07:43:19+00:00",
+    "username": "HawkForge"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-16T07:43:19+00:00",
+    "username": "Mohammad032004"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-16T07:43:19+00:00",
+    "username": "NazmusSayad"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-16T07:43:20+00:00",
+    "username": "NotAFlightRisk"
   }
 ]

@@ -802,5 +802,35 @@
     "source": "discovery",
     "status": "success",
     "username": "wycats"
+  },
+  {
+    "date_followed": "2026-11-16T07:43:19+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "AnkanaDas-codes"
+  },
+  {
+    "date_followed": "2026-11-16T07:43:19+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "HawkForge"
+  },
+  {
+    "date_followed": "2026-11-16T07:43:19+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "Mohammad032004"
+  },
+  {
+    "date_followed": "2026-11-16T07:43:19+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "NazmusSayad"
+  },
+  {
+    "date_followed": "2026-11-16T07:43:20+00:00",
+    "source": "follow-back",
+    "status": "success",
+    "username": "NotAFlightRisk"
   }
 ]
