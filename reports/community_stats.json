@@ -1,12 +1,12 @@
 {
-  "awaiting_review": 5,
-  "discovered_candidates": 5,
-  "followers": 40,
+  "awaiting_review": 0,
+  "discovered_candidates": 0,
+  "followers": 45,
   "followers_not_followed": 2,
-  "following": 179,
-  "following_not_following_back": 141,
-  "mutual": 38,
-  "successfully_followed": 129,
-  "updated_at": "2026-11-15T08:59:23+00:00",
+  "following": 189,
+  "following_not_following_back": 146,
+  "mutual": 43,
+  "successfully_followed": 139,
+  "updated_at": "2026-11-16T09:15:46+00:00",
   "username": "Brajesh31"
 }
