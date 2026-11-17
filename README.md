@@ -134,20 +134,21 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 
 ## Community statistics
 
-- Followers: **45**
-- Following: **189**
-- Mutual: **43**
-- Followers Not Followed: **2**
-- Following Not Following Back: **146**
+- Followers: **46**
+- Following: **192**
+- Mutual: **45**
+- Followers Not Followed: **1**
+- Following Not Following Back: **147**
 - Discovered Candidates: **0**
-- Successfully Followed: **139**
+- Successfully Followed: **142**
 - Awaiting Review: **0**
-- Updated: `2026-11-16T09:15:46+00:00`
+- Updated: `2026-11-17T10:25:23+00:00`
 
 ## Followers
 
 <a href="https://github.com/Abhishek123691"><img src="https://avatars.githubusercontent.com/u/217572952?v=4" alt="Abhishek123691" height="50" width="50"></a>
 <a href="https://github.com/AnkanaDas-codes"><img src="https://avatars.githubusercontent.com/u/225878259?v=4" alt="AnkanaDas-codes" height="50" width="50"></a>
+<a href="https://github.com/CaNSu5806"><img src="https://avatars.githubusercontent.com/u/175441646?v=4" alt="CaNSu5806" height="50" width="50"></a>
 <a href="https://github.com/CyberFocus2410"><img src="https://avatars.githubusercontent.com/u/221118698?v=4" alt="CyberFocus2410" height="50" width="50"></a>
 <a href="https://github.com/Deynn0"><img src="https://avatars.githubusercontent.com/u/219535114?v=4" alt="Deynn0" height="50" width="50"></a>
 <a href="https://github.com/Divyanshgupta13"><img src="https://avatars.githubusercontent.com/u/172985044?v=4" alt="Divyanshgupta13" height="50" width="50"></a>
@@ -164,6 +165,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/Princemaurya25"><img src="https://avatars.githubusercontent.com/u/173058073?v=4" alt="Princemaurya25" height="50" width="50"></a>
 <a href="https://github.com/Raj1234ed"><img src="https://avatars.githubusercontent.com/u/239550125?v=4" alt="Raj1234ed" height="50" width="50"></a>
 <a href="https://github.com/RitikkumarAI"><img src="https://avatars.githubusercontent.com/u/145904770?v=4" alt="RitikkumarAI" height="50" width="50"></a>
+<a href="https://github.com/SAPTARSHI-coder"><img src="https://avatars.githubusercontent.com/u/202814373?v=4" alt="SAPTARSHI-coder" height="50" width="50"></a>
 <a href="https://github.com/Vinit279"><img src="https://avatars.githubusercontent.com/u/196689444?v=4" alt="Vinit279" height="50" width="50"></a>
 <a href="https://github.com/asawaaarav09"><img src="https://avatars.githubusercontent.com/u/219246546?v=4" alt="asawaaarav09" height="50" width="50"></a>
 <a href="https://github.com/b28089840-svg"><img src="https://avatars.githubusercontent.com/u/239539539?v=4" alt="b28089840-svg" height="50" width="50"></a>
@@ -174,7 +176,6 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/code-market-software"><img src="https://avatars.githubusercontent.com/u/100116238?v=4" alt="code-market-software" height="50" width="50"></a>
 <a href="https://github.com/code-with-abhi-i5"><img src="https://avatars.githubusercontent.com/u/195516410?v=4" alt="code-with-abhi-i5" height="50" width="50"></a>
 <a href="https://github.com/cooldev227"><img src="https://avatars.githubusercontent.com/u/327932079?v=4" alt="cooldev227" height="50" width="50"></a>
-<a href="https://github.com/fotedev"><img src="https://avatars.githubusercontent.com/u/172937784?v=4" alt="fotedev" height="50" width="50"></a>
 <a href="https://github.com/ganesh112389-spec"><img src="https://avatars.githubusercontent.com/u/239596832?v=4" alt="ganesh112389-spec" height="50" width="50"></a>
 <a href="https://github.com/ksarith"><img src="https://avatars.githubusercontent.com/u/253832536?v=4" alt="ksarith" height="50" width="50"></a>
 <a href="https://github.com/md-abu-kayser"><img src="https://avatars.githubusercontent.com/u/67516307?v=4" alt="md-abu-kayser" height="50" width="50"></a>
@@ -193,6 +194,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
 
