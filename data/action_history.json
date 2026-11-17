@@ -987,5 +987,26 @@
     "status": "success",
     "timestamp": "2026-11-16T07:43:20+00:00",
     "username": "NotAFlightRisk"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-17T08:53:07+00:00",
+    "username": "CaNSu5806"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-17T08:53:07+00:00",
+    "username": "SAPTARSHI-coder"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-17T08:53:08+00:00",
+    "username": "mohamedelmougy"
   }
 ]
