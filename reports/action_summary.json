@@ -1,23 +1,9 @@
 {
   "counts": {
-    "successful_follows": 142,
+    "successful_follows": 144,
     "successful_unfollows": 0
   },
   "recent_actions": [
-    {
-      "action": "follow",
-      "source": "discovery",
-      "status": "success",
-      "timestamp": "2026-11-08T17:29:17+00:00",
-      "username": "drnic"
-    },
-    {
-      "action": "follow",
-      "source": "discovery",
-      "status": "success",
-      "timestamp": "2026-11-08T17:29:17+00:00",
-      "username": "dstrelau"
-    },
     {
       "action": "follow",
       "source": "discovery",
@@ -703,6 +689,20 @@
       "status": "success",
       "timestamp": "2026-11-17T08:53:08+00:00",
       "username": "mohamedelmougy"
+    },
+    {
+      "action": "follow",
+      "source": "follow-back",
+      "status": "success",
+      "timestamp": "2026-11-18T08:17:31+00:00",
+      "username": "MiladJoodi"
+    },
+    {
+      "action": "follow",
+      "source": "follow-back",
+      "status": "success",
+      "timestamp": "2026-11-18T08:17:31+00:00",
+      "username": "Sumersingpatil2694"
     }
   ]
 }
