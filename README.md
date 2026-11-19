@@ -134,21 +134,20 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 
 ## Community statistics
 
-- Followers: **48**
+- Followers: **47**
 - Following: **194**
-- Mutual: **47**
+- Mutual: **46**
 - Followers Not Followed: **1**
-- Following Not Following Back: **147**
+- Following Not Following Back: **148**
 - Discovered Candidates: **0**
 - Successfully Followed: **144**
 - Awaiting Review: **0**
-- Updated: `2026-11-18T09:55:52+00:00`
+- Updated: `2026-11-19T10:02:26+00:00`
 
 ## Followers
 
 <a href="https://github.com/Abhishek123691"><img src="https://avatars.githubusercontent.com/u/217572952?v=4" alt="Abhishek123691" height="50" width="50"></a>
 <a href="https://github.com/AnkanaDas-codes"><img src="https://avatars.githubusercontent.com/u/225878259?v=4" alt="AnkanaDas-codes" height="50" width="50"></a>
-<a href="https://github.com/CaNSu5806"><img src="https://avatars.githubusercontent.com/u/175441646?v=4" alt="CaNSu5806" height="50" width="50"></a>
 <a href="https://github.com/CyberFocus2410"><img src="https://avatars.githubusercontent.com/u/221118698?v=4" alt="CyberFocus2410" height="50" width="50"></a>
 <a href="https://github.com/Deynn0"><img src="https://avatars.githubusercontent.com/u/219535114?v=4" alt="Deynn0" height="50" width="50"></a>
 <a href="https://github.com/Divyanshgupta13"><img src="https://avatars.githubusercontent.com/u/172985044?v=4" alt="Divyanshgupta13" height="50" width="50"></a>
@@ -196,6 +195,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
 
