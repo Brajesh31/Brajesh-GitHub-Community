@@ -1022,5 +1022,19 @@
     "status": "success",
     "timestamp": "2026-11-18T08:17:31+00:00",
     "username": "Sumersingpatil2694"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-20T08:10:46+00:00",
+    "username": "BEPb"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-20T08:10:46+00:00",
+    "username": "aasimansari1"
   }
 ]
