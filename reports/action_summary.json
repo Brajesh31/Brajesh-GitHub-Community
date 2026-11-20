@@ -1,23 +1,9 @@
 {
   "counts": {
-    "successful_follows": 144,
+    "successful_follows": 146,
     "successful_unfollows": 0
   },
   "recent_actions": [
-    {
-      "action": "follow",
-      "source": "discovery",
-      "status": "success",
-      "timestamp": "2026-11-08T17:29:17+00:00",
-      "username": "dylanegan"
-    },
-    {
-      "action": "follow",
-      "source": "discovery",
-      "status": "success",
-      "timestamp": "2026-11-09T04:09:05+00:00",
-      "username": "elbowdonkey"
-    },
     {
       "action": "follow",
       "source": "discovery",
@@ -703,6 +689,20 @@
       "status": "success",
       "timestamp": "2026-11-18T08:17:31+00:00",
       "username": "Sumersingpatil2694"
+    },
+    {
+      "action": "follow",
+      "source": "follow-back",
+      "status": "success",
+      "timestamp": "2026-11-20T08:10:46+00:00",
+      "username": "BEPb"
+    },
+    {
+      "action": "follow",
+      "source": "follow-back",
+      "status": "success",
+      "timestamp": "2026-11-20T08:10:46+00:00",
+      "username": "aasimansari1"
     }
   ]
 }
