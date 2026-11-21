@@ -134,15 +134,15 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 
 ## Community statistics
 
-- Followers: **48**
-- Following: **196**
-- Mutual: **47**
-- Followers Not Followed: **1**
-- Following Not Following Back: **149**
+- Followers: **51**
+- Following: **199**
+- Mutual: **49**
+- Followers Not Followed: **2**
+- Following Not Following Back: **150**
 - Discovered Candidates: **0**
-- Successfully Followed: **146**
+- Successfully Followed: **150**
 - Awaiting Review: **0**
-- Updated: `2026-11-20T09:51:25+00:00`
+- Updated: `2026-11-21T09:27:03+00:00`
 
 ## Followers
 
@@ -156,6 +156,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/HawkForge"><img src="https://avatars.githubusercontent.com/u/75696486?v=4" alt="HawkForge" height="50" width="50"></a>
 <a href="https://github.com/Himanshu12315603"><img src="https://avatars.githubusercontent.com/u/150218275?v=4" alt="Himanshu12315603" height="50" width="50"></a>
 <a href="https://github.com/IDouble"><img src="https://avatars.githubusercontent.com/u/18186995?v=4" alt="IDouble" height="50" width="50"></a>
+<a href="https://github.com/JohnMwendwa"><img src="https://avatars.githubusercontent.com/u/72663882?v=4" alt="JohnMwendwa" height="50" width="50"></a>
 <a href="https://github.com/MalcomVie"><img src="https://avatars.githubusercontent.com/u/222227281?v=4" alt="MalcomVie" height="50" width="50"></a>
 <a href="https://github.com/MiladJoodi"><img src="https://avatars.githubusercontent.com/u/43522323?v=4" alt="MiladJoodi" height="50" width="50"></a>
 <a href="https://github.com/MizukiSonoko"><img src="https://avatars.githubusercontent.com/u/6281583?v=4" alt="MizukiSonoko" height="50" width="50"></a>
@@ -170,6 +171,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/Sumersingpatil2694"><img src="https://avatars.githubusercontent.com/u/121796367?v=4" alt="Sumersingpatil2694" height="50" width="50"></a>
 <a href="https://github.com/Vinit279"><img src="https://avatars.githubusercontent.com/u/196689444?v=4" alt="Vinit279" height="50" width="50"></a>
 <a href="https://github.com/aasimansari1"><img src="https://avatars.githubusercontent.com/u/161616901?v=4" alt="aasimansari1" height="50" width="50"></a>
+<a href="https://github.com/ajkasalkanovic"><img src="https://avatars.githubusercontent.com/u/283412852?v=4" alt="ajkasalkanovic" height="50" width="50"></a>
 <a href="https://github.com/asawaaarav09"><img src="https://avatars.githubusercontent.com/u/219246546?v=4" alt="asawaaarav09" height="50" width="50"></a>
 <a href="https://github.com/b28089840-svg"><img src="https://avatars.githubusercontent.com/u/239539539?v=4" alt="b28089840-svg" height="50" width="50"></a>
 <a href="https://github.com/b90649577-web"><img src="https://avatars.githubusercontent.com/u/225809329?v=4" alt="b90649577-web" height="50" width="50"></a>
@@ -179,6 +181,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/code-market-software"><img src="https://avatars.githubusercontent.com/u/100116238?v=4" alt="code-market-software" height="50" width="50"></a>
 <a href="https://github.com/code-with-abhi-i5"><img src="https://avatars.githubusercontent.com/u/195516410?v=4" alt="code-with-abhi-i5" height="50" width="50"></a>
 <a href="https://github.com/cooldev227"><img src="https://avatars.githubusercontent.com/u/327932079?v=4" alt="cooldev227" height="50" width="50"></a>
+<a href="https://github.com/datasifaw"><img src="https://avatars.githubusercontent.com/u/183567756?v=4" alt="datasifaw" height="50" width="50"></a>
 <a href="https://github.com/ganesh112389-spec"><img src="https://avatars.githubusercontent.com/u/239596832?v=4" alt="ganesh112389-spec" height="50" width="50"></a>
 <a href="https://github.com/ksarith"><img src="https://avatars.githubusercontent.com/u/253832536?v=4" alt="ksarith" height="50" width="50"></a>
 <a href="https://github.com/md-abu-kayser"><img src="https://avatars.githubusercontent.com/u/67516307?v=4" alt="md-abu-kayser" height="50" width="50"></a>
@@ -196,6 +199,7 @@ Community analytics for [Brajesh31](https://github.com/Brajesh31).
 <a href="https://github.com/unbraind"><img src="https://avatars.githubusercontent.com/u/1153461?v=4" alt="unbraind" height="50" width="50"></a>
 
 <!-- COMMUNITY_REPORT_END -->
+
 
 
 

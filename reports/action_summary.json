@@ -1,37 +1,9 @@
 {
   "counts": {
-    "successful_follows": 146,
+    "successful_follows": 150,
     "successful_unfollows": 0
   },
   "recent_actions": [
-    {
-      "action": "follow",
-      "source": "discovery",
-      "status": "success",
-      "timestamp": "2026-11-09T04:09:05+00:00",
-      "username": "engineyard"
-    },
-    {
-      "action": "follow",
-      "source": "discovery",
-      "status": "success",
-      "timestamp": "2026-11-09T04:09:06+00:00",
-      "username": "evanphx"
-    },
-    {
-      "action": "follow",
-      "source": "discovery",
-      "status": "success",
-      "timestamp": "2026-11-09T04:09:06+00:00",
-      "username": "ezmobius"
-    },
-    {
-      "action": "follow",
-      "source": "discovery",
-      "status": "success",
-      "timestamp": "2026-11-09T04:09:06+00:00",
-      "username": "fanvsfan"
-    },
     {
       "action": "follow",
       "source": "follow-back",
@@ -703,6 +675,34 @@
       "status": "success",
       "timestamp": "2026-11-20T08:10:46+00:00",
       "username": "aasimansari1"
+    },
+    {
+      "action": "follow",
+      "source": "follow-back",
+      "status": "success",
+      "timestamp": "2026-11-21T08:04:33+00:00",
+      "username": "JohnMwendwa"
+    },
+    {
+      "action": "follow",
+      "source": "follow-back",
+      "status": "success",
+      "timestamp": "2026-11-21T08:04:34+00:00",
+      "username": "ajkasalkanovic"
+    },
+    {
+      "action": "follow",
+      "source": "follow-back",
+      "status": "success",
+      "timestamp": "2026-11-21T08:04:34+00:00",
+      "username": "buraksocial"
+    },
+    {
+      "action": "follow",
+      "source": "follow-back",
+      "status": "success",
+      "timestamp": "2026-11-21T08:04:34+00:00",
+      "username": "datasifaw"
     }
   ]
 }
