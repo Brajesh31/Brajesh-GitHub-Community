@@ -1036,5 +1036,33 @@
     "status": "success",
     "timestamp": "2026-11-20T08:10:46+00:00",
     "username": "aasimansari1"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-21T08:04:33+00:00",
+    "username": "JohnMwendwa"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-21T08:04:34+00:00",
+    "username": "ajkasalkanovic"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-21T08:04:34+00:00",
+    "username": "buraksocial"
+  },
+  {
+    "action": "follow",
+    "source": "follow-back",
+    "status": "success",
+    "timestamp": "2026-11-21T08:04:34+00:00",
+    "username": "datasifaw"
   }
 ]
